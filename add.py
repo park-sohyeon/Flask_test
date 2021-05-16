@@ -1,5 +1,5 @@
 # app.py
-from lask import Flask, render_template
+from flask import Flask, render_template
 
 #Flask 객체 인스턴스 생성
 app = Flask(__name__)
