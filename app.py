@@ -2,7 +2,7 @@ import flask
 import pymysql
 from flask import Flask, request, render_template, jsonify, json, redirect, url_for, send_from_directory
 import numpy as np
-from tensorflow.keras.models import load_model, save_model
+from keras.models import load_model, save_model
 import matplotlib.pyplot as plt
 import numpy
 import pandas as pd
